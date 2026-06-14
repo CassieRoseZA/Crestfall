@@ -1,0 +1,9 @@
+name: Cyberlore
+version: '${version}'
+
+main: com.cassieroseza.cybercharm
+paperPluginLoader: com.cassieroseza.cybercharmLoader
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ CassieRoseZA ]
