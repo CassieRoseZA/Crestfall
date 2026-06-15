@@ -1,0 +1,26 @@
+# One server-lore announcement per line.
+# Blank lines and lines starting with # are ignored.
+# These are the random lines Crestfall announces during configured windows.
+#
+# Placeholders:
+# {online} - online player count
+# {player} - a random online player, or "someone"
+# {world}  - first loaded world name
+# {time}   - current HH:mm in config timezone
+# {date}   - current yyyy-MM-dd in config timezone
+# {viewer} - the player receiving the message
+#
+# Also supports PlaceholderAPI placeholders like %player_name% if installed.
+# Colors support &, &#RRGGBB, {#RRGGBB}, <#RRGGBB>,
+# and CMI-style gradients like {#ff0066>}text{#6600ff<}.
+
+{#8f5cff>}The old stones beneath {world} hum at {time}.{#ff7b9c<} &7No one agrees on the tune.
+{player} feels watched, though the horizon is empty.
+Somewhere below the settlement, a door closes that nobody opened.
+{#b388ff>}The moon remembers names{#5eead4<} &7the living keep forgetting.
+For a moment, every torch leans toward the same unseen place.
+The wind carries a chapel bell, but no chapel stands nearby.
+{#ff7b9c>}Tonight, the ruins are counting footsteps.{#8f5cff<}
+Something under Crestfall answers only after midnight.
+{#5eead4>}The archive has gained a page dated {date}.{#b388ff<} &7No one wrote it.
+{#8f5cff>}Every map in town is wrong by one road tonight.{#ff7b9c<}

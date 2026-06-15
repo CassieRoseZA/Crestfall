@@ -1,9 +1,26 @@
-name: Cyberlore
+name: Crestfall
 version: '${version}'
 
-main: com.cassieroseza.cybercharm
-paperPluginLoader: com.cassieroseza.cybercharmLoader
+main: com.cassieroseza.Crestfall
 api-version: '1.21.11'
 load: POSTWORLD
+softdepend: [ PlaceholderAPI, CMI ]
 
 authors: [ CassieRoseZA ]
+
+commands:
+  crestfall:
+    description: Manage Crestfall lore announcements.
+    usage: /crestfall <status|reload|force|recipesync>
+    aliases: [ crest, cfall ]
+
+permissions:
+  crestfall.reload:
+    description: Reload Crestfall lore config and announcement text.
+    default: op
+  crestfall.force:
+    description: Force a lore announcement immediately.
+    default: op
+  crestfall.recipesync:
+    description: Sync server recipe keys to online players.
+    default: op
